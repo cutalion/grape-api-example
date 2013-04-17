@@ -20,3 +20,7 @@ API
 * All ActiveRecord rake tasks are accessible: `db:migrate`, `db:drop`, `db:seed`, etc
 * Start the server: `rackup`
 
+# Heroku
+
+[This code on heroku](https://grape-api-example.herokuapp.com/)
+Use this `special-key` in /api/doc swagger interface: `e711541a4a79b037c15a8b01314d667e`
