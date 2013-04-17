@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: utf-8
+  database: grape_api_development
+  pool: 5
+  username: cutalion
+  password: password
+
+test: &test
+  adapter: postgresql
+  encoding: utf-8
+  database: grape_api_test
+  pool: 5
+  username: cutalion
+  password: password

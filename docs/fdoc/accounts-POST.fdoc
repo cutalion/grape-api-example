@@ -1,0 +1,66 @@
+---
+description: Creates an account
+responseCodes:
+- status: 201
+  successful: true
+  description: Account was successfully created
+- status: 401
+  successful: false
+  description: Authentication failed
+- status: 403
+  successful: false
+  description: Cannot create a account. See error message for details.
+requestParameters:
+  properties:
+    account:
+      description: account attributes - JSON
+      required: true
+      type: object
+      properties:
+        name:
+          description: account name
+          required: true
+          type: string
+          example: John Doe
+        email:
+          description: account email
+          required: true
+          type: string
+          example: john.doe@example.com
+    api_key:
+      description: Partner's API key
+      required: true
+      type: string
+      example: !binary |-
+        YjI1ZjM1NGQ1MmE3YzlmMjBlMWM2Mjc2Njc3NGVmODk=
+responseParameters:
+  properties:
+    id:
+      description: account ID
+      required: true
+      type: string
+      example: 6G5549Mo78BHzltc0JbP7w
+    name:
+      description: account name
+      required: true
+      type: string
+      example: John Doe
+    links:
+      description: URIs of related resources
+      required: true
+      type: array
+      items:
+        description: related resources
+        required: true
+        type: object
+        properties:
+          rel:
+            description: relation of resource to account
+            required: true
+            type: string
+            example: self
+          href:
+            description: URI of resource
+            required: true
+            type: string
+            example: /v1/accounts/6G5549Mo78BHzltc0JbP7w

@@ -1,0 +1,21 @@
+*.gem
+*.rbc
+.bundle
+.config
+database.yml
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+.DS_Store
+
+# YARD artifacts
+.yardoc
+_yardoc
+/doc/
+/log/

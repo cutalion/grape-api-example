@@ -1,0 +1,21 @@
+code {
+  background-color: #fcf6db;
+  padding: 1px 3px;
+}
+
+pre code.json {
+  line-height: inherit;
+}
+
+.operation .content ul {
+  list-style: disc outside none;
+  margin-left: 20px;
+}
+
+.operation .content ul li{
+  line-height: 1.5em;
+}
+
+.operation .content em {
+  font-style: italic;
+}

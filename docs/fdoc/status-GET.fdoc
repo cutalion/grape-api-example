@@ -1,0 +1,15 @@
+---
+description: Returns the status of the API
+responseCodes:
+- status: 200
+  successful: true
+  description: API is operational
+requestParameters:
+  properties: {}
+responseParameters:
+  properties:
+    status:
+      description: current status of the API
+      required: true
+      type: string
+      example: ok
