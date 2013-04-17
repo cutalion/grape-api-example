@@ -1,4 +1,4 @@
-API
+Grape API example
 ===
 
 # System Requirements
