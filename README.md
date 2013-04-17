@@ -22,5 +22,5 @@ API
 
 # Heroku
 
-[This code on heroku](https://grape-api-example.herokuapp.com/)
+[This code on heroku](https://grape-api-example.herokuapp.com/)  
 Use this `special-key` in /api/doc swagger interface: `e711541a4a79b037c15a8b01314d667e`
