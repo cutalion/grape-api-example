@@ -2,7 +2,7 @@
 source 'https://rubygems.org'
 
 gem 'rack', '~> 1.5.2'
-gem 'grape', '~> 0.2.6'
+gem 'grape', '~> 0.5.0'
 gem 'grape-swagger'
 gem 'sprockets', '~> 2.0'
 gem 'activerecord', '~> 3.2.11', require: 'active_record'

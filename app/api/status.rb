@@ -1,6 +1,6 @@
 class API::Status < API::Base
   desc "Returns the status of the API", notes: fdoc_endpoint('status-GET')
   get '/status' do
-    { status: 'ok' }.to_json
+    { status: 'ok' }
   end
 end
