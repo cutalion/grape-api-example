@@ -19,3 +19,4 @@ tmp
 _yardoc
 /doc/
 /log/
+db/*.sqlite3
