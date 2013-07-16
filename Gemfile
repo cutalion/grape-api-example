@@ -15,6 +15,7 @@ gem 'rack-ssl-enforcer'
 gem 'newrelic_rpm'
 gem 'newrelic-grape'
 gem 'racksh'
+gem 'json-schema', '< 2.0.0' # temporarily avoid change in json-schema require syntax
 gem 'fdoc'
 
 group :development do
