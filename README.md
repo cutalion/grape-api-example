@@ -3,7 +3,7 @@ Grape API example
 
 # System Requirements
 
-* ruby 1.9.3
+* ruby 1.9.3 & 2.0.0
 * see Gemfile
 
 # Installation
